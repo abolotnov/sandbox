@@ -17,6 +17,11 @@ public class Cat implements IAnimal {
         Legs = legs;
     }
 
+    @Override
+    public String Name() {
+        return null;
+    }
+
     public int Age(){
         return Age;
     }
